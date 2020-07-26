@@ -1,0 +1,29 @@
+2020-07-26 21:16:52,482 - kedro.pipeline.node - ERROR - Node `load_Data: load_data([house_price_test,house_price_training]) -> [house_price_test_x,house_price_train_x,house_price_train_y]` failed with error: 
+name 'trainig_data' is not defined
+2020-07-26 21:17:42,410 - kedro.pipeline.node - ERROR - Node `training([house_price_train_x,house_price_train_y,parameters]) -> [best_model]` failed with error: 
+name 'parametes' is not defined
+2020-07-26 21:18:06,363 - kedro.pipeline.node - ERROR - Node `training([house_price_train_x,house_price_train_y,parameters]) -> [best_model]` failed with error: 
+optimize() got an unexpected keyword argument 'n_trails'
+2020-07-26 21:18:19,149 - kedro.pipeline.node - ERROR - Node `training([house_price_train_x,house_price_train_y,parameters]) -> [best_model]` failed with error: 
+set_params() takes 1 positional argument but 2 were given
+2020-07-26 21:18:59,963 - kedro.pipeline.node - ERROR - Node `training([house_price_train_x,house_price_train_y,parameters]) -> [best_model]` failed with error: 
+set_params() argument after ** must be a mapping, not Trial
+2020-07-26 21:22:29,063 - kedro.pipeline.node - ERROR - Node `training([house_price_train_x,house_price_train_y,parameters]) -> [best_model]` failed with error: 
+set_params() argument after ** must be a mapping, not Trial
+2020-07-26 21:22:46,819 - kedro.pipeline.node - ERROR - Node `training([house_price_train_x,house_price_train_y,parameters]) -> [best_model]` failed with error: 
+set_params() argument after ** must be a mapping, not Trial
+2020-07-26 21:27:55,324 - kedro.pipeline.node - ERROR - Node `training([house_price_train_x,house_price_train_y,parameters]) -> [best_model]` failed with error: 
+set_params() argument after ** must be a mapping, not Trial
+2020-07-26 21:29:29,694 - kedro.pipeline.node - ERROR - Node `training([house_price_train_x,house_price_train_y,parameters]) -> [best_model]` failed with error: 
+name 'create_lightgbm_model' is not defined
+2020-07-26 21:30:13,171 - kedro.pipeline.node - ERROR - Node `training([house_price_train_x,house_price_train_y,parameters]) -> [best_model]` failed with error: 
+name 'create_lightgbm_model' is not defined
+2020-07-26 21:31:03,611 - kedro.pipeline.node - ERROR - Node `training([house_price_train_x,house_price_train_y,parameters]) -> [best_model]` failed with error: 
+name 'KFold' is not defined
+2020-07-26 21:31:31,351 - kedro.pipeline.node - ERROR - Node `training([house_price_train_x,house_price_train_y,parameters]) -> [best_model]` failed with error: 
+DataFrame.dtypes for data must be int, float or bool.
+Did not expect the data types in the following fields: MSZoning, Street, Alley, LotShape, LandContour, Utilities, LotConfig, LandSlope, Neighborhood, Condition1, Condition2, BldgType, HouseStyle, RoofStyle, RoofMatl, Exterior1st, Exterior2nd, MasVnrType, ExterQual, ExterCond, Foundation, BsmtQual, BsmtCond, BsmtExposure, BsmtFinType1, BsmtFinType2, Heating, HeatingQC, CentralAir, Electrical, KitchenQual, Functional, FireplaceQu, GarageType, GarageFinish, GarageQual, GarageCond, PavedDrive, PoolQC, Fence, MiscFeature, SaleType, SaleCondition
+2020-07-26 22:33:28,278 - kedro.pipeline.node - ERROR - Node `training([categorical_house_price_train_x,house_price_train_y,parameters]) -> [best_model]` failed with error: 
+'LGBMRegressor' object has no attribute 'best_iteration'
+2020-07-26 22:35:04,775 - kedro.pipeline.node - ERROR - Node `training([categorical_house_price_train_x,house_price_train_y,parameters]) -> [best_model]` failed with error: 
+'LGBMRegressor' object has no attribute 'current_iteration'
